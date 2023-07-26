@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import subprocess, base64, requests, time
 
 for i in range(5):
